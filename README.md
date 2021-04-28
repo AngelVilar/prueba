@@ -13,7 +13,7 @@ Una vez realizado esto el comando para borrar las options es el siguiente:
 
 No he podido probarlo ya que no tengo ningún entorno multisite instalado actualmente pero la sintaxis es esa.
 
-Además del CLI, un forma alternativa de hacerlo es buscando en phpMyadmin haciendo la búsqueda en la base de datos del multisite y hacer la búsqueda manual. Para ello he creado un usuario de prueba en CDMON y he hecho un multisite en wordpress www.pruebamirai.com.mialias.net usuario: prueba365  password: xOH6JV5K y para acceder a wordpress: usuario: mirai contraseña: prueba123 podéis acceder a su base de datos que he creado para comprobarla a través de PhpMyadmin con las claves: usuario: myprue3e581 contraseña: TCEiAcvD
+Además del CLI, un forma alternativa de hacerlo es buscando en phpMyadmin haciendo la búsqueda en la base de datos del multisite y hacer la búsqueda manual. Para ello he creado un usuario de prueba en CDMON y he hecho un multisite en wordpress <a href="www.pruebamirai.com.mialias.net">www.pruebamirai.com.mialias.net</a> usuario: prueba365  password: xOH6JV5K y para acceder a wordpress: usuario: mirai contraseña: prueba123 podéis acceder a su base de datos que he creado para comprobarla a través de PhpMyadmin con las claves: usuario: myprue3e581 contraseña: TCEiAcvD
 www.pruebamirai.com/phpMyAdmin/
 Ahí en phpMyAdmin buscaría las options que hay que borrar y hacerlo manualmente. Nos dará 3 resultados, uno por cada base de datos de cada site.
 
