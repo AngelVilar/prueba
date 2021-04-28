@@ -17,7 +17,7 @@ Ahí en phpMyAdmin buscaría las options que hay que borrar y hacerlo manualment
 
 ### PRUEBA 2: Código necesario que debería incluirse en el footer.php de un theme para que se muestre en un div los datos obtenidos por el plugin. Se puede ver dentro del plugin.⚙️
 
-`/* Fución para la escritura en el footer */
+```/* Fución para la escritura en el footer */
 add_action('wp_footer', 'mirai_footer');
 function mirai_footer(){
    
