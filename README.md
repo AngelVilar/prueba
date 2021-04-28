@@ -3,7 +3,7 @@ Repositorio para prueba en WordPress de Mirai
 
 ### PRUEBA 1: Indicar el comando de WP-CLI que se debería lanzar para borrarlas. 🔧
 
-Lo primero que debemos hacer es un backup por si acaso surge algún error. Para ello tenemos que estar en nuestro servidor en la ubicación correcta y lanzar el comando:
+_Lo primero que debemos hacer es un backup por si acaso surge algún error. Para ello tenemos que estar en nuestro servidor en la ubicación correcta y lanzar el comando:
 wp db export tar -vczf nombredelbackup.gz .
 Una vez realizado esto el comando para borrar las tablas es el siguiente:
 
@@ -15,9 +15,9 @@ Además del CLI, un forma alternativa de hacerlo es buscando en phpMyadmin hacie
 www.pruebamirai.com/phpMyAdmin/
 Ahí en phpMyAdmin buscaría las options que hay que borrar y hacerlo manualmente. Nos dará 3 resultados, uno por cada base de datos de cada site.
 
-### PRUEBA 2: Código necesario que debería incluirse en el footer.php de un theme para que se muestre en un div los datos obtenidos por el plugin. Se puede ver dentro del plugin.
+### PRUEBA 2: Código necesario que debería incluirse en el footer.php de un theme para que se muestre en un div los datos obtenidos por el plugin. Se puede ver dentro del plugin.🔧
 
-/* Fución para la escritura en el footer */
+_/* Fución para la escritura en el footer */
 add_action('wp_footer', 'mirai_footer');
 function mirai_footer(){
    
