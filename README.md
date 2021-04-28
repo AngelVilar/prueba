@@ -21,7 +21,8 @@ PRUEBA 2: Código necesario que debería incluirse en el footer.php de un theme 
 add_action('wp_footer', 'mirai_footer');
 function mirai_footer(){
    
-// campos solicitados    
+// campos solicitados
+    echo "<div style='color:#ffffff; background: #000000; text-align:center;'>";  
     $fields = array('name', 'url', 'admin_email');
     $data = array();
     foreach($fields as $field) {
@@ -36,7 +37,7 @@ function mirai_footer(){
     echo "".$title."";
     echo "</br>";
     echo "".$id."";   
-    
-  ?>
+	echo "</div>";
+    ?>
 <?php
 };
