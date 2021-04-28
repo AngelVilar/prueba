@@ -1,5 +1,6 @@
-# prueba
+# prueba Mirai
 Repositorio para prueba en WordPress de Mirai
+
 Prueba 1: Indicar el comando de WP-CLI que se debería lanzar para borrarlas. 
 
 Lo primero que debemos hacer es un backup por si acaso surge algún error. Para ello lanzamos el comando:
