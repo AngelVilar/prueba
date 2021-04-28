@@ -18,7 +18,7 @@ www.pruebamirai.com/phpMyAdmin/
 Ahí en phpMyAdmin buscaría las options que hay que borrar y hacerlo manualmente. Nos dará 3 resultados, uno por cada base de datos de cada site.
 
 ### PRUEBA 2: En un WordPress Multisite, se desea mostrar en el footer de todos los sites los siguientes datos:
-* La url del site (por ejemplo http://site1.example.com, http://site2.example.com...)
+###* La url del site (por ejemplo http://site1.example.com, http://site2.example.com...)
 * El nombre del site (por ejemplo 'Site de prueba 1, Site de prueba 2')
 * La dirección e-mail del administrador del site
 * La id del post o página en que nos encontremos
