@@ -14,9 +14,6 @@ No he podido probarlo ya que no tengo ningún entorno multisite instalado actual
 Además del CLI, un forma alternativa de hacerlo es buscando en phpMyadmin haciendo la búsqueda en la base de datos del multisite y hacer la búsqueda manual. Para ello he creado un usuario de prueba en CDMON y he hecho un multisite en wordpress www.pruebamirai.com.mialias.net usuario: prueba365  password: xOH6JV5K y para acceder a wordpress: usuario: mirai contraseña: prueba123 podéis acceder a su base de datos que he creado para comprobarla a través de PhpMyadmin con las claves: usuario: myprue3e581 contraseña: TCEiAcvD
 www.pruebamirai.com/phpMyAdmin/
 Ahí en phpMyAdmin buscaría las options que hay que borrar y hacerlo manualmente. Nos dará 3 resultados, uno por cada base de datos de cada site.
- 
-Examinamos las options para asegurarnos que es la que buscamos y procedemos a borrar manualmente.
-Habrá que tener en cuenta casos puntuales como en el caso de fs_accounts, además de los 3 sites que he creado también estará en el directorio general dentro de wp_sitemeta por tanto habrá que borrarlo de ese registro también.
 
 PRUEBA 2: Código necesario que debería incluirse en el footer.php de un theme para que se muestre en un div los datos obtenidos por el plugin. Se puede ver dentro del plugin.
 
