@@ -4,7 +4,9 @@ Repositorio para prueba en WordPress de Mirai
 ### PRUEBA 1: Indicar el comando de WP-CLI que se debería lanzar para borrarlas. 🔧
 
 Lo primero que debemos hacer es un backup por si acaso surge algún error. Para ello tenemos que estar en nuestro servidor en la ubicación correcta y lanzar el comando:
-wp db export tar -vczf nombredelbackup.gz .
+
+```wp db export tar -vczf nombredelbackup.gz .```
+
 Una vez realizado esto el comando para borrar las tablas es el siguiente:
 
 ```wp site list --field=url | xargs -n1 -I % wp --url=% option delete fs_active_plugins fs_debug_mode fs_accounts fs_wsalp```
